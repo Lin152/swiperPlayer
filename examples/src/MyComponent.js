@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import SwipePlayer from './SwipePlayer'
-import image_1 from './assets/1.jpg'
-import image_2 from './assets/2.jpg'
-import image_3 from './assets/3.jpg'
+import SwipePlayer from '../../src/SwipePlayer'
+import image_1 from '../../src/assets/1.jpg'
+import image_2 from '../../src/assets/2.jpg'
+import image_3 from '../../src/assets/3.jpg'
 
 export default class index extends Component {
     constructor(props) {

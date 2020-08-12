@@ -1,13 +1,14 @@
 {
   "name": "swipeplayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/SwipePlayer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
     "build": "webpack --mode production",
-    "transpile": "babel src -d dist --copy-files"
+    "deploy": "babel src -d dist --copy-files",
+    "demo": "npm run build && npm run deploy"
   },
   "keywords": [
     "react",
